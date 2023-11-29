@@ -29,6 +29,9 @@ metadata:
     gwcp.guidewire.com/dept: '275'
 spec:
   chart:
+    metadata:
+      labels:
+        gwcp.guidewire.com/code: '275'
     spec:
       chart: podinfo
       reconcileStrategy: ChartVersion
